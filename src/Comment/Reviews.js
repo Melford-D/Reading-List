@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import RemoveReviews from "./RemoveReviews";
 import { ReviewDetails } from "./ReviewDetails";
 
 const Reviews = () => {
@@ -24,5 +23,5 @@ const Reviews = () => {
     </div>
   );
 };
-
+//I tried to place the FormValidation between the form tags but it was not working perfectly
 export default Reviews;

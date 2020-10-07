@@ -9,7 +9,7 @@ const RemoveReviews = ({ bookreview }) => {
         <li
           onClick={() => dispatch({ type: "REMOVE_REVIEW", id: bookreview.id })}
         >
-          <div className="author"> {bookreview.review} </div>
+          <div className="review"> {bookreview.review} </div>
         </li>
       </ul>
     </div>
