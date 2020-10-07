@@ -103,10 +103,17 @@ textarea {
   max-width: 700px;
   height: 30vh;
   outline: none;
-  background: #9e7e9e;
+  background: #3c1f3c;
   color: #fff;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
+  outline: none;
+  border: none;
+}
+textarea:hover {
+  opacity: 0.8;
+  background: #fff;
+  color: #000;
 }
 .reviews h2 {
   text-align: center;
