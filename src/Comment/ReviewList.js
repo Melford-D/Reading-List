@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ReviewDetails } from "../Comment/ReviewDetails";
+import RemoveReviews from "../Comment/RemoveReviews";
 
 const ReviewList = () => {
   const { bookreviews } = useContext(ReviewDetails);
